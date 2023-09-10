@@ -75,8 +75,10 @@ body {
 }
 
 .social-media {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
+
+.social-icon {margin-right: 40px;}
 
 .social-media a {
   margin: 0 10px;
