@@ -1,0 +1,143 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f0f1;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #faf6f6;
+  z-index: 100;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #130b0b;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #0f596b;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('Images/3.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #faf9f9;
+  text-align: center;
+  padding: 205px 0;
+}
+
+.hero-content h1 {
+  font-size: 46px;
+  margin-bottom: 26px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #060a0a;
+  color: #faf6f6;
+  text-align: center;
+  padding: 26px 0;
+}
+
+.social-media {
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background-color: #1f9aaa;
+      width: 100%;
+      display: none;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .nav-links a {
+      color: #f5f1f1;
+  }
+
+  .header nav {
+      justify-content: flex-end;
+  }
+}
+
+/* Background image styling with reduced brightness */
+.page {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.page::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  mix-blend-mode: darken;
+}
+
+/* Home page background */
+#home {
+  background-image: url('path/to/home-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  filter: brightness(0.7);
+}
+

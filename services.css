@@ -1,0 +1,37 @@
+.services {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  .service {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .service-item {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+  }
+  /* ... (previous styles) ... */
+
+/* About page specific styles */
+#services {
+  background-image: url('path/to/services-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  filter: brightness(0.5); /* Adjust the value to control brightness */
+}
