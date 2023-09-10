@@ -1,8 +1,0 @@
-/* ... (previous styles) ... */
-
-.page {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    transition: transform 0.5s ease;
-  }
