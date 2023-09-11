@@ -56,20 +56,20 @@ body {
   background-image: url('Images/3.jpg');
   background-size: cover;
   background-position: center;
-  color: #faf9f9;
+  color: #fcf9f9;
   text-align: center;
   padding: 205px 0;
 }
 
 .hero-content h1 {
-  font-size: 46px;
-  margin-bottom: 26px;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 /* Footer styles */
 .footer {
-  background-color: #060a0a;
-  color: #faf6f6;
+  background-color: #aab3b3;
+  color: #050505;
   text-align: center;
   padding: 26px 0;
 }
