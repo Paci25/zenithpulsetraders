@@ -1,5 +1,9 @@
 /* Reset default margin and padding */
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
 }
@@ -8,6 +12,13 @@ body, h1, h2, h3, p {
 body {
   font-family: Arial, sans-serif;
   background-color: #e9f0f1;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  color: #1f9aaa;
+  clip-path: circle(20%);
 }
 
 .header {
@@ -56,26 +67,30 @@ body {
   background-image: url('Images/3.jpg');
   background-size: cover;
   background-position: center;
-  color: #faf9f9;
+  color: #fcf9f9;
   text-align: center;
   padding: 205px 0;
 }
 
 .hero-content h1 {
-  font-size: 46px;
-  margin-bottom: 26px;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 /* Footer styles */
 .footer {
-  background-color: #060a0a;
-  color: #faf6f6;
+  background-color: #aab3b3;
+  color: #050505;
   text-align: center;
   padding: 26px 0;
 }
 
 .social-media {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  margin-right: 40px;
 }
 
 .social-media a {
@@ -85,31 +100,31 @@ body {
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   .nav-links {
-      flex-direction: column;
-      align-items: flex-end;
-      position: absolute;
-      top: 70px;
-      right: 20px;
-      background-color: #1f9aaa;
-      width: 100%;
-      display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #1f9aaa;
+    width: 100%;
+    display: none;
   }
 
   .nav-links.active {
-      display: flex;
+    display: flex;
   }
 
   .nav-links li {
-      margin-right: 0;
-      margin-bottom: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .nav-links a {
-      color: #f5f1f1;
+    color: #f5f1f1;
   }
 
   .header nav {
-      justify-content: flex-end;
+    justify-content: flex-end;
   }
 }
 
@@ -128,7 +143,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(10, 10, 10, 0.7);
   mix-blend-mode: darken;
 }
 
@@ -140,4 +155,3 @@ body {
   position: relative;
   filter: brightness(0.7);
 }
-
