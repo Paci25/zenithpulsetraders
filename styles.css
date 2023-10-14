@@ -14,12 +14,6 @@ body {
   background-color: #e9f0f1;
 }
 
-.container {
-  width: 200px;
-  height: 200px;
-  color: #1f9aaa;
-  clip-path: circle(20%);
-}
 
 .header {
   position: fixed;
@@ -82,7 +76,7 @@ body {
   background-color: #aab3b3;
   color: #050505;
   text-align: center;
-  padding: 26px 0;
+  padding: 10px 0;
 }
 
 .social-media {
