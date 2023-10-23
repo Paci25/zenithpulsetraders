@@ -35,7 +35,8 @@
   position: relative;
   filter: brightness(0.5); /* Adjust the value to control brightness */
 }
-.address {
-  text-align: right;
-  position: fixed;
+address { 
+  position: fixed; /*I added address*/
+  right: 20px;
+  bottom: 15px;
 }
