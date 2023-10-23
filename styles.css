@@ -149,3 +149,9 @@ body {
   position: relative;
   filter: brightness(0.7);
 }
+
+address { 
+        position: fixed; /*I added address*/
+        right: 20px;
+        bottom: 15px;
+}

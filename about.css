@@ -23,4 +23,10 @@
   color: #444;
 }
 
+address { 
+  position: fixed; /*I added address*/
+  right: 20px;
+  bottom: 15px;
+}
+
 /* ... (footer styles) ... */
